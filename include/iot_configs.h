@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: MIT
 
 // Wifi
-#define IOT_CONFIG_WIFI_SSID "Demonster"
-#define IOT_CONFIG_WIFI_PASSWORD "n3LXKv9Hbj"
+#define IOT_CONFIG_WIFI_SSID "wifi-ssid"
+#define IOT_CONFIG_WIFI_PASSWORD "wifi-password"
 
 // Enable macro IOT_CONFIG_USE_X509_CERT to use an x509 certificate to
 // authenticate the IoT device. The two main modes of authentication are through
@@ -55,11 +55,11 @@
 #endif // IOT_CONFIG_USE_X509_CERT
 
 // Azure IoT
-#define IOT_CONFIG_IOTHUB_FQDN "aiot-test1.azure-devices.net"
+#define IOT_CONFIG_IOTHUB_FQDN "*****.azure-devices.net"
 #define IOT_CONFIG_DEVICE_ID "NodeMCU32-test"
 // Use device key if not using certificates
 #ifndef IOT_CONFIG_USE_X509_CERT
-#define IOT_CONFIG_DEVICE_KEY "tEzLwRQVCl7dpaez0gLU4YLxi+QHWaLYsGW2XK2Nfqg="
+#define IOT_CONFIG_DEVICE_KEY "tEzLwRQVCl7dpaez0g*************LYsGW2XK2Nfqg="
 #endif // IOT_CONFIG_USE_X509_CERT
 
 // Publish 1 message every 2 seconds
